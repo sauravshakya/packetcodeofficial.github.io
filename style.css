@@ -1,0 +1,156 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+.navbar{
+	background-color: rgba(#1234,0.5) !important;
+}
+.navbar .navbar-brand{
+	margin-left: 30px;
+}
+.navbar .navbar-nav{
+
+}
+
+#carouselExampleCaptions .carousel-inner{
+	height: 600px;
+}
+#carouselExampleCaptions .carousel-item img{
+	position: absolute;
+    object-fit:cover;
+    top: 0;
+    left: 0;
+    min-height: 600px;
+}
+/*cards css starts*/
+
+.product-cards h2{
+	text-align: center;
+}
+ .card {
+	 background: #fff;
+	 border-radius: 4px;
+	 box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.5);
+	 max-width: 400px;
+	 border-radius: 25px;
+	 position: relative;
+}
+}
+ .card h2 {
+	 margin: 0;
+	 padding: 0 1rem;
+}
+ .card .price {
+	 /*margin: 1rem;*/
+	 text-align: center;
+	 color: green;
+	 font-weight: bold;
+	 font-size: 17px;
+}
+ .card .desc {
+	 padding: 0.5rem 1rem;
+	 font-size: 12px;
+}
+ .card .actions {
+	 /*display: grid;
+	 grid-template-columns: repeat(3, 1fr);
+	 align-items: center;*/
+	 text-align: center;
+	 /*margin: 1rem;*/
+	 border-right: 2px solid #000;
+}
+.card .img-avatar {
+	 width: 80px;
+	 height: 80px;
+	 position: absolute;
+	 border-radius: 50%;
+	 border: 6px solid #fff;
+	/*background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);*/
+	 top: 15px;
+	 left: 85px;
+}
+.card .img-avatar img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: inherit;
+}
+
+/*.card .card-text {
+	 display: grid;
+	 grid-template-columns: 1fr 2fr;
+}*/
+.card .title-total {
+	 padding: 0.5em 1.5em 1.5em 1.5em;
+}
+.card .portada {
+	 width: 100%;
+	 height: 300px;
+	 border-top-left-radius: 20px;
+	 border-top-right-radius: 20px
+}
+.card .portada img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	border-radius: inherit;
+}
+
+.card .actions button {
+	 border: none;
+	 background: none;
+	 font-size: 22px;
+	 color: #8bc34a;
+	 cursor: pointer;
+	 transition: 0.5s;
+}
+.card .actions button:hover {
+	 color: #4caf50;
+	 transform: rotate(22deg);
+}
+ 
+ /*card css ends*/
+
+/*product css strats here*/
+
+.product{
+
+}
+.product .pro-img{
+	height: 200px;
+	width: 100%;
+	overflow: hidden;
+}
+.product .pro-img img{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+}
+.product .pro-cont-side .actions a{
+	color: #000;
+	border-color: #000;
+}
+.product .pro-cont-side .actions a:hover{
+	background-color: #8bc34a;
+	border-color: #8bc34a;
+}
+
+.product .product-desc ul{
+	margin-left: 20px;
+}
+.product .information .info{
+	margin-bottom: 20px;
+}
+.product .information .info h6{
+	font-weight: bold;
+}
+
